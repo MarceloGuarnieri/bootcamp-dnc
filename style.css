@@ -10,7 +10,15 @@ body{
     height: 100px;
     border: pox solid black;
     background-color: #303030;
+    display: flex;
+    justify-content: space-between; /*os espaços sobrando ficam entre os elementos*/
+}
 
+#menu{
+    display: flex; /*tamanho do menu flexível*/
+    width: 55%;
+    justify-content: space-around; /*distribuir os elementos dentro do espaço do display*/
+    align-items: center; /*alinhamento vertical*/
 }
 
 #principal div a{
@@ -19,4 +27,8 @@ body{
     font-weight: 600;
     color: white;
     text-decoration: none;
+}
+
+#principal button{
+    margin-right: 5%;
 }

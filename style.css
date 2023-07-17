@@ -12,13 +12,16 @@ body{
     background-color: #303030;
     display: flex;
     justify-content: space-between; /*os espaços sobrando ficam entre os elementos*/
+    align-items: center;
+    border-bottom: 1px solid #bababa;
 }
 
 #menu{
     display: flex; /*tamanho do menu flexível*/
-    width: 55%;
+    width: 40%;
     justify-content: space-around; /*distribuir os elementos dentro do espaço do display*/
     align-items: center; /*alinhamento vertical*/
+    margin-left: 5%;
 }
 
 #principal div a{
@@ -29,6 +32,22 @@ body{
     text-decoration: none;
 }
 
+    /*hover aplica quando o mouse passa em cima de um item, no caso abaixo, o link*/
+    #principal div a:hover{
+        color: #cccccc;
+    }
+
 #principal button{
     margin-right: 5%;
+    background-color: #0C70F2;
+    border: 0px;
+    height: 40px;
+    width: 80px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 3px 2px 10px rgba(12, 112, 242, 0.25); /*1º - sombra na horizontal, 2º - sombra na vertical, 
+    3º - esfumaçado, 4º - cor, rgba = red, green, blue, alpha (transparência, opacidade)*/
 }

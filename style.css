@@ -3,6 +3,9 @@
 body{
     margin: 0px; /*Margem externa*/
     padding: 0px; /*Margem interna*/
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    background-repeat: no-repeat;
+
 }
 
 #principal{
@@ -18,7 +21,7 @@ body{
 
 #menu{
     display: flex; /*tamanho do menu flexível*/
-    width: 40%;
+    width: 35%;
     justify-content: space-around; /*distribuir os elementos dentro do espaço do display*/
     align-items: center; /*alinhamento vertical*/
     margin-left: 5%;
@@ -50,4 +53,5 @@ body{
     border-radius: 2px;
     box-shadow: 3px 2px 10px rgba(12, 112, 242, 0.25); /*1º - sombra na horizontal, 2º - sombra na vertical, 
     3º - esfumaçado, 4º - cor, rgba = red, green, blue, alpha (transparência, opacidade)*/
+    cursor: pointer; /*muda o cursor do mouse para uma mãozinha quando em cima de um link*/
 }

@@ -246,3 +246,50 @@ section{
     footer .linha2 a:hover{
         color: var(--cinza-hover);
     }
+
+@media only screen and (max-width: 600px){
+    #principal{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #menu a{
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    #principal button{
+        width: 100%;
+        margin: 0px;
+    }
+
+    /*Section*/
+
+    section h1{
+        font-size: 38px;
+    }
+
+    section h2{
+        font-size: 28px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    form{
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .checkbox-itens{
+        font-size: 17px;
+    }
+
+}
